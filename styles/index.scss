@@ -1,0 +1,54 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+body {
+  background: #f5f5f5;
+}
+.page1 {
+  text-align:center;
+  color:blue;
+}
+.tablecolor {
+  color:yellow;
+}
+.color {
+  border-color: red;
+  text-align:center;
+}
+.text {
+  text-align: center;
+}
+.text2 {
+  color:white;
+}
+.buttonlight {
+    display:inline-block;
+    float:right;
+    height:38px;
+    margin:0;
+    max-width:984px;
+    overflow:hidden;
+    padding:0;
+    position:relative;
+    text-indent:0;
+    vertical-align:middle;
+    white-space:nowrap;
+    width:auto;
+    z-index:0;
+}
+@media screen and (max-width: 768px) {
+  .color {
+    text-align: center;
+    width: 100%;
+    border: red;
+  }
+}
+@media screen and (min-width: 768px) {
+  .color {
+    text-align: center;
+    width: 50%;
+    border: red;
+  }
+}
