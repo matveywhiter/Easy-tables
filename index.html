@@ -7,21 +7,10 @@
 <meta charset="UTF-8" />
 <title>Easy tables</title>
 <link rel="icon" href="https://img.icons8.com/ios-glyphs/30/000000/activity-grid.png"/>
-   <script src="granim.min.js" charset="UTF-8"></script>
 <!--  Styles  -->
 <style>
    a:hover {
 text-decoration:none !important;
-}
-#canvas-basic {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
 }
   </style>
 <link rel="stylesheet" href="styles/index.processed.css">
@@ -35,23 +24,5 @@ Site with different tables
 </h1>
 <a href="table1.html"><button type="button" class="btn btn-primary"><h5 class="tablecolor">table with pets</h5></button></a>
 <a href="table2.html"><button type="button" class="btn btn-primary"><h5 class="tablecolor">table with cars</h5></button></a>
-<canvas id="canvas-basic"></canvas> 
-   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script>
-   var granimInstance = new Granim({
-    element: '#canvas-basic',
-    direction: 'left-right',
-    isPausedWhenNotInView: true,
-    states : {
-        "default-state": {
-            gradients: [
-                ['#ff9966', '#ff5e62'],
-                ['#00F260', '#0575E6'],
-                ['#e1eec3', '#f05053']
-            ]
-        }
-    }
-});
-</script>
 </body>
 </html>
