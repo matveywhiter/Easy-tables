@@ -40,6 +40,20 @@
   z-index: 0;
 }
 
+ffff {
+    position: fixed;
+    text-align: right;
+    top: 15px;
+    right: 15px;
+}
+
+.fff {
+    position: fixed;
+    text-align: right;
+    top: 15px;
+    right: 48px;
+}
+
 @media screen and (max-width: 768px) {
   .color {
     text-align: center;
