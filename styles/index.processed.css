@@ -2,6 +2,7 @@
  * index.scss
  * - Add any styles you want here!
  */
+html { overflow:  hidden; }
 .page1 {
   text-align:center;
   color: blue;
@@ -43,14 +44,14 @@
 .ffff {
     position: fixed;
     text-align: right;
-    top: 15px;
+    top: 7px;
     right: 15px;
 }
 
 .fff {
     position: fixed;
     text-align: right;
-    top: 15px;
+    top: 7px;
     right: 48px;
 }
 
